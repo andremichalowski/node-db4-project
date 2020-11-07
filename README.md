@@ -37,7 +37,7 @@ Follow these steps to set up and work on your project:
 
 ### Task 2: Minimum Viable Product
 
-- [] Design the **data model** for a _recipe book_ application, then use `Knex migrations and seeding` functionality to build a `SQLite3` database based on the model and seed it with test data.
+- [x] Design the **data model** for a _recipe book_ application, then use `Knex migrations and seeding` functionality to build a `SQLite3` database based on the model and seed it with test data.
 
 The requirements for the system, as stated by the client are:
 - have a way to manage recipes.
