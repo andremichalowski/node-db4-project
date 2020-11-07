@@ -21,9 +21,11 @@ Follow these steps to set up and work on your project:
   - nodemon (adjust scripts)
   - express (w/helmet, knex, sqlite3)
 
-- [] Create server
+- [x] Create server
   - server.js
   - index.js
+
+- [] Router
   - router file
 
 - [] Configuration and knex file 
