@@ -25,13 +25,14 @@ Follow these steps to set up and work on your project:
   - server.js
   - index.js
 
-- [] Router
+- [x] Router
   - router file
 
-- [] Configuration and knex file 
-  - connection
-  - knexfile
+- [x] Knex, migration, config/cnctn
+  - knexfile (see database scheme 422)
   - migration file
+  - connection/config file
+  
 
 
 ### Task 2: Minimum Viable Product
