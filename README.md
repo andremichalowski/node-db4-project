@@ -6,18 +6,40 @@
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Initial commit
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
+
+- [x] Setup Dependencies
+  - npm
+  - pkg.json
+  - git ignore
+
+  - nodemon (adjust scripts)
+  - express (w/helmet, knex, sqlite3)
+
+- [x] Create server
+  - server.js
+  - index.js
+
+- [x] Router
+  - router file
+
+- [x] Knex, migration, config/cnctn
+  - knexfile (see database scheme 422)
+  - migration file
+  - connection/config file
+  
+
 
 ### Task 2: Minimum Viable Product
 
-Design the **data model** for a _recipe book_ application, then use `Knex migrations and seeding` functionality to build a `SQLite3` database based on the model and seed it with test data.
+- [x] Design the **data model** for a _recipe book_ application, then use `Knex migrations and seeding` functionality to build a `SQLite3` database based on the model and seed it with test data.
 
 The requirements for the system, as stated by the client are:
-
 - have a way to manage recipes.
 - have a way to manage ingredients.
 - a **recipe** could have more than one **ingredient** and the same **ingredient** can be used in multiple recipes. Examples are _"cup of corn flour"_ or _"gram of butter"_.
@@ -25,6 +47,8 @@ The requirements for the system, as stated by the client are:
 - have a way to save step by step instructions for preparing a recipe.
 
 **Hint**: Before writing any code, write out all desired tables in the data model and determine all relationships between tables. 
+
+
 
 ### Migrations and Seeds
 
@@ -40,6 +64,16 @@ In addition to the `migrations` and `seeding` scripts, write a data access file 
 - `getInstructions(recipe_id)`: should return a list of step by step instructions for preparing a recipe
 
 Organize and name your files anyway you see fit.
+
+
+
+
+
+
+
+
+
+
 
 ### Task 3: Stretch Goals
 
