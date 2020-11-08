@@ -1,11 +1,11 @@
 const knex = require('knex');
 
-const knexfile = require('../knexfile.js');
+const config = require('../knexfile.js');
 
-// we know that heroku is going to use the production environment but we don't have it defined yet so we don't hard code it
+module.exports = knex(config.development);
 
-const environment = process.env.NODE_ENV || 'development'; 
+// const knexfile = require('../knexfile.js');
 
-const config = knexfile[environment];
+// // we know that heroku is going to use the production environment but we don't have it defined yet so we don't hard code it
 
-module.exports = knex(config)
+// const environment = process.env.NODE_ENV || 'development'; 

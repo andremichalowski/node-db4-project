@@ -1,11 +1,15 @@
 const express = require('express'); //import
+
+const Schemes = require('./recipe-model.js');
+
 const router = express.Router(); //instantiate
 router.use(express.json()) //configure
+
 
 // CRUD ENDPOINTS WITH ROUTER GO HERE
 
 router.get('/routerTest', (req, res) => {
-  res.status(200).json({ router: "Test GET request from scheme-router"})
+  res.status(200).json({ router: "Test GET request from recipe-router"})
 })
 // router.get('/', (req, res) => {...}
 // router.get('/:id', (req, res) => {...}

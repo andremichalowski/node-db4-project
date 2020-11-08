@@ -1,5 +1,5 @@
 const express = require('express');
-const SchemeRouter = require('../schemes/scheme-router.js');
+const SchemeRouter = require('../schemes/recipe-router.js');
 
 const db = require('../data/connection.js');
 

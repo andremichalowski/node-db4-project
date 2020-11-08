@@ -1,3 +1,18 @@
+const db = require('../data/connection.js');
+
+module.exports = {
+
+} 
+
+
+
+
+
+
+
+
+
+
 // // add helpers here
 
 // // scheme-model
